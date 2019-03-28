@@ -1,6 +1,6 @@
 object plantaNuclear {
 	var empleado = homero
-	var barras = 10000 
+	var barras = 1000 
 	
 	method variarBarras(cantidad){
 		barras = barras + cantidad
