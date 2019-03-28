@@ -1,0 +1,14 @@
+import example.*
+
+test "homero inicialmente esta distraido" {
+	assert.that(homero.estaDistraido())
+}
+
+test "homero compra donas y no esta distraido" {
+	homero.comprarDonas()
+	assert.notThat(homero.estaDistraido())
+
+}
+test "pato no esta distraido" {
+	assert.notThat(patoBalancin.estaDistraido())
+}
